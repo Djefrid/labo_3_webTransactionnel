@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
@@ -20,8 +21,10 @@
 </head>
 
 <body class="body">
+    
+    
 
-    <div class="container-fluid">
+    <!-- <div class="container-fluid">
 
         <nav class="navbar navbar-expand-md navbar-light ">
             <div class="container-fluid">
@@ -34,17 +37,17 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                     <ul class="navbar-nav nav-fill">
-                        <li class="nav-item px-5"> <!-- Ajoutez la classe px-4 pour ajouter de l'espace -->
-                            <a class="nav-link active text-center" aria-current="page" href="../htmlpages/acceuil.html">Home</a>
+                        <li class="nav-item px-5"> 
+                            <a class="nav-link text-center" aria-current="page" href="../htmlpages/acceuil.html">Acceuil</a>
                         </li>
-                        <li class="nav-item px-5"> <!-- Ajoutez la classe px-4 pour ajouter de l'espace -->
+                        <li class="nav-item px-5"> 
                             <a class="nav-link text-center" href="../htmlpages/index.html">Blog</a>
                         </li>
-                        <li class="nav-item px-5"> <!-- Ajoutez la classe px-4 pour ajouter de l'espace -->
+                        <li class="nav-item px-5"> 
                             <a class="nav-link text-center" href="../htmlpages/ajoutPublication.html">Pricing</a>
                         </li>
-                        <li class="nav-item px-5"> <!-- Ajoutez la classe px-4 pour ajouter de l'espace -->
-                            <a class="nav-link disabled text-center" href="#" tabindex="-1"
+                        <li class="nav-item px-5"> 
+                            <a class="nav-link  text-center" href="#" tabindex="-1"
                                 aria-disabled="true">Disabled</a>
                         </li>
                     </ul>
@@ -53,8 +56,8 @@
                     <img src="../images/profil.jpg" alt="logo" width="99" height="98">
                 </div>
             </div>
-        </nav>
-
+        </nav> -->
+<!-- 
         <div class="container-fluid">
             <div class="row justify-content-center">
                 <img src="../images/paysage.jpg" class="img-fluid banner" alt="Responsive image" id="image">
@@ -157,9 +160,9 @@
 
                 </div>
             </div>
-        </div>
+        </div> -->
 
-        <div class="container-fluid footer">
+       <!--  <div class="container-fluid footer">
             <div class="row">
                 <footer>
                     <a href="https://www.facebook.com/" target="_blank"><img class="img" src="../images/facebook-logo.png" alt="Facebook"></a>
@@ -169,14 +172,38 @@
                     <div id="expertise-text">2022</div>
                 </footer>
             </div>
-        </div>
+        </div> -->
+
+       
 
     </div>
 
+    <div id="root"></div>
+
+    <!-- Ajoutez le lien vers react script-->
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <!--  -->
+    
+    <script type="text/babel" src="../react/Header.js"></script>
+    <script type="text/babel" src="../react/CustomContext.js"></script>
+    <script type="text/babel" src="../react/Comment.js"></script>
+    <script type="text/babel" src="../react/CommentList.js"></script>
+    <script type="text/babel" src="../react/BlogDetails.js"></script>
+    <script type="text/babel" src="../react/AddComment.js"></script>
+    
+    <script type="text/babel" src="../react/Blog.js"></script>
+    <script type="text/babel" src="../react/Footer.js"></script>
+    <script type="text/babel" src="../react/Index.js"></script>
+
+
+    <!-- Ajoutez le lien vers bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    <script src="../scriptJS/scriptconsultation.js"></script>
-    <script src="../scriptJS/ajoutCommentaire.js"></script>
+    <!-- Ajoutez le lien vers le script -->
+    <!-- <script src="../scriptJS/scriptconsultation.js"></script>
+    <script src="../scriptJS/ajoutCommentaire.js"></script> -->
 </body>
 
 </html>

@@ -1,0 +1,1 @@
+const CustomContext = React.createContext(null);

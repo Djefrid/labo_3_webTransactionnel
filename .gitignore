@@ -64,3 +64,5 @@ $RECYCLE.BIN/
 # Fichiers temporaires de MS Word sur Mac
 
 ~$*.docx
+
+/node_module

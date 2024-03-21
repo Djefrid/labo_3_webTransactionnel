@@ -26,7 +26,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass style.sass style.css"
+    "sass": "sass --watch cssSass/style.sass:cssSass/style.css"
   },
   "author": "",
   "license": "ISC"
